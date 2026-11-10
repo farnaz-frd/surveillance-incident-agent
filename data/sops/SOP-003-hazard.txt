@@ -1,0 +1,34 @@
+SOP ID: SOP-003
+Title: Physical Hazard Detection and Reporting Protocol
+Category: hazard
+Last Reviewed: 2025-11-20
+
+1. SCOPE
+Applies to detected physical hazards including spills, fire/smoke indicators,
+structural damage, blocked emergency exits, and equipment left in unsafe states
+(e.g. forklift left running, chemical containers left open).
+
+2. IMMEDIATE ACTIONS
+2.1 Any hazard detection with confidence >= 0.5 triggers an automatic check
+    against the maintenance schedule tool for the affected zone — an open
+    maintenance work order may explain the condition (e.g. active cleaning,
+    known repair in progress).
+2.2 If no matching maintenance work order exists, classify as an unplanned
+    hazard and proceed to severity assessment.
+2.3 Fire, smoke, or structural collapse indicators bypass all other steps and
+    trigger Level 3 escalation immediately, regardless of maintenance schedule.
+
+3. ESCALATION LEVELS
+Level 1 (Matches an open maintenance work order): Log as informational,
+  no further action required.
+Level 2 (Unplanned hazard, non-life-safety — e.g. spill, blocked non-emergency
+  walkway): Notify facilities team, log for same-shift resolution, re-check
+  in 30 minutes if unresolved.
+Level 3 (Fire/smoke, structural damage, blocked emergency exit, or hazard in
+  a high-traffic zone): Immediate notification to facility manager and safety
+  officer. Blocked emergency exits require notification within 2 minutes
+  regardless of time of day.
+
+4. DOCUMENTATION REQUIREMENTS
+Maintenance schedule cross-reference result, hazard type, zone traffic level
+at time of detection, and time-to-resolution once flagged.

@@ -1,0 +1,40 @@
+SOP ID: SOP-002
+Title: Unauthorized Access Escalation Procedure
+Category: unauthorized_access
+Last Reviewed: 2026-02-01
+
+1. SCOPE
+Covers detected entry into restricted interior zones (server rooms, executive
+offices, R&D labs) by personnel whose badge credentials do not match the zone's
+access control list, including tailgating events (one badge scan, multiple
+individuals entering).
+
+2. IMMEDIATE ACTIONS
+2.1 Query the badge scanner log tool for the zone within a 2-minute window of
+    detection. Determine whether entry correlates with exactly one valid scan.
+2.2 If entity count in the frame exceeds badge scan count for the same window,
+    classify as a suspected tailgating event.
+2.3 If no badge scan correlates at all, classify as forced or propped-door entry
+    and escalate to Level 3 immediately.
+
+3. ESCALATION LEVELS
+Level 1 (Tailgating, all individuals subsequently badge-verified within 5 min):
+  Log as a training/reminder item for facilities. No security dispatch.
+Level 2 (Tailgating, one or more individuals never verified): Dispatch security
+  to the zone, notify the zone's designated access owner (e.g. IT lead for
+  server room), require manual sign-in log completion.
+Level 3 (No badge correlation / forced entry / propped door in a Tier-1 critical
+  zone such as server room or R&D lab): Immediate dispatch, notify facility
+  manager and IT security lead simultaneously, treat as potential security
+  breach until manually cleared.
+
+4. CRITICAL ZONE DEFINITIONS
+Tier-1 (highest sensitivity): server rooms, R&D labs, executive offices,
+  financial records storage.
+Tier-2: general office areas after hours, storage rooms, mechanical rooms.
+Access violations in Tier-1 zones always escalate at least one level higher
+than the same violation type in Tier-2 zones.
+
+5. DOCUMENTATION REQUIREMENTS
+Badge log query result, entity count vs. scan count discrepancy, zone tier
+classification, and final verification status for every individual involved.

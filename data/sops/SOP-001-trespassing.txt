@@ -1,0 +1,39 @@
+SOP ID: SOP-001
+Title: Trespassing Response and Perimeter Breach Protocol
+Category: trespassing
+Last Reviewed: 2026-01-15
+
+1. SCOPE
+This procedure applies to any detected presence of unauthorized individuals within
+restricted perimeter zones, including fence lines, loading docks after operating
+hours, and rooftop access points.
+
+2. IMMEDIATE ACTIONS
+2.1 Upon detection with confidence >= 0.6, the on-duty security operator must be
+    alerted within 60 seconds via the incident dashboard.
+2.2 Cross-reference the individual's presence against the badge access log for the
+    zone and time window. If no valid badge scan exists within a 10-minute window
+    of detection, escalate to Level 2.
+2.3 If the individual is near a marked hazard area (chemical storage, electrical
+    substation, construction zone), escalate immediately to Level 3 regardless of
+    badge status.
+
+3. ESCALATION LEVELS
+Level 1 (Confidence 0.6-0.75, no hazard proximity): Log incident, notify shift
+  supervisor, continue monitoring. No dispatch required unless individual remains
+  after 5 minutes.
+Level 2 (No badge match found): Dispatch on-site security personnel to the zone.
+  Notify facility manager. Begin continuous recording retention for the incident.
+Level 3 (Hazard proximity OR after-hours breach at critical infrastructure):
+  Immediate dispatch, notify facility manager AND regional security director,
+  initiate lockdown protocol for adjacent zones if applicable.
+
+4. DOCUMENTATION REQUIREMENTS
+Every trespassing incident, regardless of level, requires: timestamp, camera ID,
+badge log cross-reference result, entities detected, and final disposition
+(cleared / escalated / law enforcement contacted).
+
+5. FALSE POSITIVE HANDLING
+Wildlife, maintenance staff without updated badge records, and delivery personnel
+are common false positive sources. If badge log shows a valid maintenance work
+order for the zone/time, downgrade to informational log only.

@@ -1,0 +1,34 @@
+SOP ID: SOP-005
+Title: Abandoned Object Response Procedure
+Category: abandoned_object
+Last Reviewed: 2026-01-05
+
+1. SCOPE
+Applies to any object (bag, package, container) detected as stationary and
+separated from any individual for longer than the persistence threshold, in
+any monitored zone.
+
+2. IMMEDIATE ACTIONS
+2.1 Confirm persistence: the object must remain in place, unattended, across
+    at least 3 consecutive sampled frames (approx. 6 minutes at default
+    sampling rate) before being treated as actionable. Single-frame detections
+    are very frequently false positives (e.g. a person briefly out of frame).
+2.2 Cross-reference maintenance schedule tool — some zones have legitimately
+    placed equipment (cleaning carts, delivery pallets) that may be
+    misclassified.
+2.3 Objects in high-traffic public-facing areas (lobbies, transit points) are
+    treated with higher urgency than objects in low-traffic back-of-house areas.
+
+3. ESCALATION LEVELS
+Level 1 (Matches known maintenance/delivery equipment placement): Log only.
+Level 2 (Unexplained, low-traffic zone, persistence 6-15 minutes): Notify
+  facilities/security for physical inspection, no evacuation.
+Level 3 (Unexplained, high-traffic or public-facing zone, persistence > 15
+  minutes, OR any unexplained object near critical infrastructure): Notify
+  facility manager and safety officer immediately. Consider area clearance
+  pending physical inspection, per site's standard bomb-threat-adjacent
+  caution procedures.
+
+4. DOCUMENTATION REQUIREMENTS
+Persistence duration, zone traffic classification, maintenance schedule
+cross-reference result, and inspection outcome once resolved.

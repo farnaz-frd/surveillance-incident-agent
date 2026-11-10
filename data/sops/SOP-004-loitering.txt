@@ -1,0 +1,32 @@
+SOP ID: SOP-004
+Title: Loitering Assessment Procedure
+Category: loitering
+Last Reviewed: 2025-12-10
+
+1. SCOPE
+Applies to individuals remaining in a monitored zone beyond expected dwell time
+without a clear operational purpose — entrances, parking structures, loading
+areas, and perimeter zones are the most common contexts.
+
+2. IMMEDIATE ACTIONS
+2.1 Loitering is inherently a lower-confidence, higher-ambiguity category than
+    trespassing. Do not escalate on detection alone; require a minimum
+    persistence window of 3 minutes across multiple sampled frames before
+    treating as actionable.
+2.2 Cross-reference badge scan logs — an individual loitering near an entrance
+    they are badged for (e.g. waiting for a colleague) is a low-priority case.
+2.3 Loitering in a parking structure or perimeter zone after standard business
+    hours warrants closer review than the same behavior during business hours.
+
+3. ESCALATION LEVELS
+Level 1 (Business hours, near a zone the individual has valid badge access to):
+  Log only, no action.
+Level 2 (After hours OR no badge correlation, persistence > 5 minutes):
+  Notify shift supervisor, flag for operator visual review via live feed if
+  available.
+Level 3 (After hours, no badge correlation, near a Tier-1 critical zone as
+  defined in SOP-002, persistence > 10 minutes): Dispatch security to assess.
+
+4. DOCUMENTATION REQUIREMENTS
+Persistence duration, badge correlation result, time-of-day context, and
+zone classification.
