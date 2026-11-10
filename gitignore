@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Secrets / local config (keep .env.example)
+.env
+
+# Generated at runtime
+.chroma_store/
+.frame_cache/
+data/facility_ops.db
+*.db
+reports/*
+!reports/.gitkeep
+
+# Test videos (large, and may have licensing limits)
+data/sample_videos/*
+!data/sample_videos/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

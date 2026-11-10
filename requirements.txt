@@ -1,0 +1,6 @@
+# Draft: replace with versions from `pip freeze` in your working venv.
+requests
+pydantic>=2
+opencv-python
+numpy
+chromadb
